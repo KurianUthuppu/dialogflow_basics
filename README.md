@@ -22,3 +22,8 @@ Lists out the basics of dialogflow
 - If there is no response, put in more training phrases to make the model better understand the several various way in which the user can raise the question that it intends to ask
 
 ### Entity
+- Entity are like variables which can assume different values while the user raises a query (intend)
+- For example an entity could be pincode, country-name etc:-
+- Many entities are available already in dialogflow itself
+- Custom entities could be made by going to entities and then click create entity
+  - Enter the synonyms or usual style in which the same is entered
