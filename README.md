@@ -27,3 +27,15 @@ Lists out the basics of dialogflow
 - Many entities are available already in dialogflow itself
 - Custom entities could be made by going to entities and then click create entity
   - Enter the synonyms or usual style in which the same is entered
+
+### Using entities to capture parameters
+- While creating the intent, go to action and parameters and create the requisite parameters; parameter's entity should be mentioned along with '$'name to recall the value
+- You may tick whether the particular parameter is required or not
+- Double click the word on the training phrases and select the parameter to which it has to be assigned
+- In the response phrases, you can recall the value of the particular parameter using $'parametername' as described in the action and parameters part. Example:
+  - If one of the training phrase is - Give me the country name for ISD code starting with '001'
+  - The 001 can be double clicked to consider it as the input value for pincode parameter
+  - While returning the response of the country name, the same could be recalled as well 
+  - To the same the response code could be - The country name for code $pincode is X
+
+
